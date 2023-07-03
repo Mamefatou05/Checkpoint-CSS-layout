@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/1f8e94d034.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,100;1,100&display=swap');" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Checkpoint CSS layout</title>
+</head>
+
+<body>
+  <header>
+    <!--Barre de Navigation-->
+    <nav class="navbar fixed-top navbar-expand-lg bg-white">
+      <div class="container w-75">
+        <a class="navbar" href="#">
+          <img src="logo 2.png" alt="Logo" width="50" height="45" class="d-inline-block align-text-top" />
+          <h1 class="titre">Docplanner</h1>
+          <h1 class="Group">Group</h1>
+        </a>
+        <div id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Aproposdenous">A propos de nous</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Carrière">Carrière</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Départements">Départements</a>
+              <ul>
+                <li><a href="#">Marqueting et realtions publiques</a></li>
+                <li><a href="#">Réussites clients et ventes</a></li>
+                <li><a href="#">IT,produit,données</a></li>
+                <li><a href="#">Finances & Administration</a></li>
+                <li><a href="#">RH et plus</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--A propos de nous-->
+  <main>
+    <div class="container w-75">
+      <!--Première section-->
+      <div id="titre">
+        <img src="logo 2.png" alt="Logo" width="50" height="45" class="d-inline-block align-text-top" />
+        <h2 class="fw-light" id="texte-logo">
+          Rendre l'expérience de soins plus humaine
+        </h2>
+      </div>
+      <!--Deuxième section-->
+      <div class="row mt-5">
+        <div class="col-6">
+          <p>
+            Nous voulons que les patients trouvent le médecin idéal et
+            prennent rendez-vous de la manière la plus simple. Le parcours du
+            patient doit être agréable, et c'est pourquoi nous sommes toujours
+            à ses côtés : pour l'aider à trouver les meilleurs soins
+            possibles. N'importe quand n'importe où.
+          </p>
+        </div>
+        <div class="col-6">
+          <p>
+            Nous aidons également les médecins à mieux gérer leur cabinet et à
+            bâtir leur e-réputation. Grâce à notre solution intégrée de bout
+            en bout, les médecins peuvent non seulement améliorer leur
+            présence en ligne, mais aussi consacrer leur temps à ce qui compte
+            vraiment : leurs patients.
+          </p>
+        </div>
+      </div>
+      <!--Troisième section-->
+      <div class="row mt-5">
+        <div class="col-4">
+          <div class="card text-white mb-3 card1">
+            <div class="card-main">
+              <img src="https://www.docplanner.com/icons/icon-patients.svg" alt="" />
+              <h3 class="card-title text-white mt-3">Pour les malades</h3>
+              <p class="card-text fs-4">
+                Trouvez un médecin, réservez une visite et résolvez tout doute
+                lié à la santé
+              </p>
+              <a href="#" class="card-link">Choisissez un pays</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card text-white mb-3 card2">
+            <div class="card-main">
+              <img src="https://www.docplanner.com/icons/icon-patients.svg" alt="" />
+              <h3 class="card-title text-white mt-3">Pour les médecins</h3>
+              <p class="card-text fs-4">
+                Gagnez du temps dans la gestion des visites et réduisez de
+                moitié les absences
+              </p>
+              <a href="#" class="card-link">Choisissez un pays</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card text-white mb-3 card3">
+            <div class="card-main">
+              <img src="https://www.docplanner.com/icons/icon-clinics.svg" alt="" />
+              <h3 class="card-title text-white mt-3">Pour les cliniques</h3>
+              <p class="card-text fs-4">
+                Offrez une expérience patient exceptionnelle dans votre
+                clinique
+              </p>
+              <p><a href="#" class="card-link">2 à 20 spécialistes</a></p>
+              <p><a href="#" class="card-link">Plus de 20 spécialistes</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Quatrième section-->
+      <div class="row mt-5">
+        <div class="col-4">
+          <p class="fs-4 text-primaire">
+            Nous sommes une entreprise mondiale avec une culture locale
+          </p>
+        </div>
+        <div class="col-8">
+          <div class="lien">
+            <div class="d-flex align-item-center">
+              <a class="logo-lien" href="ZnanyLekarz">
+                <img class="logo" src="logo 2.png" alt="" />
+                <h6>ZnanyLekarz</h6>
+              </a>
+            </div>
+
+            <div class="d-flex align-item-center">
+              <a class="logo-lien" href="Doctoralia">
+                <img class="logo" src="logo 2.png" alt="" />
+                <h6>Doctoralia</h6>
+              </a>
+            </div>
+
+            <div class="d-flex align-item-center">
+              <a class="logo-lien" href="MioDottore">
+                <img class="logo" src="logo 2.png" alt="" />
+                <h6>MioDottore</h6>
+              </a>
+            </div>
+
+            <div class="d-flex align-item-center">
+              <a class="logo-lien" href="DoktorTakvimi">
+                <img class="logo" src="logo 2.png" alt="" />
+                <h6>DoktorTakvimi</h6>
+              </a>
+            </div>
+
+            <div class="d-flex align-item-center">
+              <a class="logo-lien" href="ZnamyLekar">
+                <img class="logo" src="logo 2.png" alt="" />
+                <h6>ZnamyLekar</h6>
+              </a>
+            </div>
+
+            <div>
+              <img class="logo-link" src="logo-jameda.svg" alt="" />
+              <img class="logo-link" src="logo-tuotempo.svg" alt="" />
+              <img class="logo-link" src="logo-gipo-primary.svg" alt="" />
+              <img class="logo-link" src="logo-clinicloud.svg" alt="" />
+              <img class="logo-link" src="logo-feegow.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Cinquième section-->
+    <div class="section5">
+      <div class="container w-75">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="note">
+              La plus grande plateforme de soins de santé au monde
+            </h3>
+            <p>
+              Nous travaillons à partir de 9 bureaux dans le monde entier,
+              donnant vie au groupe Docplanner dans 13 pays.
+            </p>
+          </div>
+
+          <div class="col-6 mt-5">
+            <div class="d-flex flex-wrap justify-content-between">
+              <div class="card card-image1" style="width: 48%">
+                <div class="card-body card-propos">
+                  <img class="icons" src="https://www.docplanner.com/img/flag.png" alt="" />
+                  <p class="card-title">Leader dans 13 pays</p>
+                  <p class="card-text">
+                    Pologne, Brésil, Mexique, Espagne, Italie, Allemagne,
+                    Turquie, Colombie, République tchèque, Portugal,
+                    Argentine, Pérou et Chili
+                  </p>
+                </div>
+              </div>
+              <div class="card card-image2" style="width: 48%">
+                <div class="card-body card-propos">
+                  <img class="icons" src="https://www.docplanner.com/img/patients.png" alt="" />
+                  <p class="card-title">90 000 000 malades</p>
+                  <p class="card-text">visitez nos sites Web chaque mois</p>
+                </div>
+              </div>
+              <div class="card card-image1" style="width: 48%">
+                <div class="card-body card-propos">
+                  <img class="icons" src="https://www.docplanner.com/img/visits.png" alt="" />
+                  <p class="card-title">15 000 000 rendez-vous</p>
+                  <p class="card-text">réservé le mois dernier</p>
+                </div>
+              </div>
+              <div class="card card-image2" style="width: 48%">
+                <div class="card-body card-propos">
+                  <img class="icons" src="https://www.docplanner.com/img/doctors.png" alt="" />
+                  <p class="card-title">210 000 médecins actifs</p>
+                  <p class="card-text">faites confiance à nos solution.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Sixième section-->
+    <div id="pays">
+      <span id="texte">
+        Améliorer la vie de millions de personnes. Changez le vôtre pour
+        toujours.
+      </span>
+      <span>
+        Plus de 2800 coéquipiers partagent notre même vision, objectifs et
+        passion. Avec des bureaux à Varsovie, Barcelone, Munich, Istanbul,
+        Rome, Rio, Bologne, Mexico et Curitiba, notre recherche de grands
+        talents ne s'arrête jamais.
+      </span>
+    </div>
+    <div class="container w-75">
+      <div class="pays-image">
+        <div class="card card-pays" style="width: 18rem">
+          <img src="https://www.docplanner.com/images/warsaw.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-title" id="card-title">Varsovie</p>
+            <a href="#" class="btn btn-primary">Voir les ouvertures</a>
+          </div>
+        </div>
+        <div class="card card-pays" style="width: 18rem">
+          <img src="https://www.docplanner.com/images/barcelona.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-title" id="card-title">Barcelone</p>
+            <a href="#" class="btn btn-primary">Voir les ouvertures</a>
+          </div>
+        </div>
+        <div class="card card-pays" style="width: 18rem">
+          <img src="https://www.docplanner.com/images/munich.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-title" id="card-title">Munich</p>
+            <a href="#" class="btn btn-primary">Voir les ouvertures</a>
+          </div>
+        </div>
+        <div class="card card-pays" style="width: 18rem">
+          <img src="https://www.docplanner.com/images/istanbul.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-title" id="card-title">Istanbul</p>
+            <a href="#" class="btn btn-primary">Voir les ouvertures</a>
+          </div>
+        </div>
+
+        <div class="card card-pays" style="width: 18rem">
+          <img src="https://www.docplanner.com/images/rome.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-title" id="card-title">Rome</p>
+            <a href="#" class="btn btn-primary">Voir les ouvertures</a>
+          </div>
+        </div>
+        <div class="card card-pays" style="width: 18rem">
+          <img src="https://www.docplanner.com/images/bologna.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-title" id="card-title">Bologne</p>
+            <a href="#" class="btn btn-primary">Voir les ouvertures</a>
+          </div>
+        </div>
+        <div class="card card-pays" style="width: 18rem">
+          <img src="https://www.docplanner.com/images/curitiba.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-title" id="card-title">Curitiba</p>
+            <a href="#" class="btn btn-primary">Voir les ouvertures</a>
+          </div>
+        </div>
+        <div class="card card-pays" style="width: 18rem">
+          <img src="https://www.docplanner.com/images/rio-janeiro.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-title" id="card-title">Rio de janeiro</p>
+            <a href="#" class="btn btn-primary">Voir les ouvertures</a>
+          </div>
+        </div>
+        <div class="card card-pays" style="width: 18rem">
+          <img src="https://www.docplanner.com/images/mexico-city.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-title" id="card-title">Mexico</p>
+            <a href="#" class="btn btn-primary">Voir les ouvertures</a>
+          </div>
+        </div>
+        <div class="card card-pays" style="width: 18rem">
+          <img src="https://www.docplanner.com/images/bogota.png" class="card-img-top h-75" alt="" />
+          <div class="card-body">
+            <p class="card-title" id="card-title">Bogota</p>
+            <a href="#" class="btn btn-primary">Voir les ouvertures</a>
+          </div>
+        </div>
+      </div>
+      <div id="note">
+        <p id="end">Ça a l'air intéressant? Rejoignez nous maintenant!</p>
+        <a href="#" class="btn btn-primary">Voir les ouvertures en cours</a>
+      </div>
+    </div>
+  </main>
+  <!--Pied de page-->
+  <footer>
+    <div class="container w-75 pied-page">
+      <ul>
+        <li>Nous sommes leaders dans 13 pays</li>
+        <li>
+        : <li><a class="link-end" href="">Pologne</a></li>
+        , <li><a class="link-end" href="">Turquie</a></li>
+        , <li><a class="link-end" href="">Espagne</a> </li>
+        , <li><a class="link-end" href="">Italie</a></li>
+        , <li><a class="link-end" href="">Allemagne</a></li>
+        , <li><a class="link-end" href="">République</a></li>
+        , <li><a class="link-end" href="">Tchèque</a></li>
+        , <li><a class="link-end" href="">Portugal</a></li>
+        , <li><a class="link-end" href="">Mexique</a></li>
+        , <li><a class="link-end" href="">Colombie</a></li>
+        , <li><a class="link-end" href="">Brésil</a></li>
+        , <li><a class="link-end" href="">Argentine</a></li>
+        , <li><a class="link-end" href="">Pérou</a></li>
+
+        </li>
+        <li>et</li>
+        <li><a href="">Chili</a></li>
+      </ul>
+      <ul class="end">
+        <li>www.docplanner.com © 2023</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

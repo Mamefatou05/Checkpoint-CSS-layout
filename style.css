@@ -1,0 +1,305 @@
+body {
+    padding-top: 7%;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(116, 116, 116);
+
+}
+
+header nav .container {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+.titre {
+    margin-left: 5px;
+    color: rgb(0, 195, 165);
+}
+
+.Group {
+    margin-left: 5px;
+    color: rgb(171, 171, 171);
+}
+
+nav .container .navbar {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: rgb(171, 171, 171);
+}
+
+.nav-link.active {
+    color: rgb(0, 179, 155) !important;
+}
+
+.nav-link:hover {
+
+    color: rgb(0, 179, 155)
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    position: relative;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+
+}
+
+nav li:hover>ul {
+    display: inherit;
+}
+
+nav ul ul li {
+    background-color: white;
+    width: 200px;
+    height: 60px;
+}
+
+nav ul ul a {
+    padding: 10px;
+    color: grey
+}
+
+nav ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+nav ul ul li:hover>a {
+    background-color: white;
+
+}
+
+nav li:hover>a {
+    background-color: white;
+    color: rgb(0, 179, 155);
+}
+
+
+#texte-logo {
+    color: rgb(0, 179, 155);
+    font-size: 35px;
+    margin-top: 2%;
+
+}
+
+#titre {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.card1 {
+    background-color: rgb(0, 204, 177);
+    height: 100%;
+}
+
+.card2 {
+    background-color: rgb(61, 131, 223);
+    height: 100%;
+}
+
+.card3 {
+    background-color: rgb(27, 39, 52);
+    height: 100%;
+}
+
+.card-main {
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.card-link {
+    color: white;
+    font-size: 20px;
+}
+
+.text-primaire {
+    font-family: sans-serif;
+    color: rgb(0, 179, 155);
+
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+.lien {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+}
+
+.logo-lien {
+
+    display: inline-flex;
+    text-decoration: dotted;
+    color: rgb(171, 171, 171);
+}
+
+h6 {
+    font-size: 25px;
+}
+
+.logo-lien:hover {
+    color: rgb(0, 179, 155)
+}
+
+.logo-link {
+    margin-left: 15px;
+    width: 85px;
+    height: 70px;
+    color: rgb(171, 171, 171);
+}
+
+.section5 {
+    background-color: rgb(225, 249, 247);
+    background-image: url(logo_2-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.note {
+    color: rgb(0, 179, 155);
+    font-size: 35px;
+    margin-top: 20%;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+
+
+.card-title {
+    color: rgb(0, 179, 155);
+    font-size: 28px;
+    margin-bottom: 3%;
+}
+
+.card-propos {
+    margin-top: 20%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.card-image1 {
+    margin-top: 5%;
+    min-height: 300px;
+}
+
+.card-image2 {
+    margin-bottom: 5%;
+    min-height: 300px;
+}
+
+#pays {
+
+    margin-top: 5%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
+#texte {
+    font-size: 28px;
+    color: rgb(0, 179, 155);
+    margin-bottom: 5%;
+
+}
+
+.pays-image {
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pays-image .card-pays {
+    height: 170%;
+    margin-left: 4%;
+    margin-top: 4%;
+    width: 300px !important;
+}
+
+.card-body {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+
+}
+
+#card-title {
+    font-size: 16px;
+    color: rgb(171, 171, 171);
+}
+
+#note {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#end {
+    font-size: 40px;
+}
+
+footer {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+
+.pied-page ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    color: rgb(171, 171, 171);
+
+}
+
+.pied-page ul li {
+    font-size: 12px;
+}
+
+.pied-page ul li a {
+    color: rgb(67, 131, 223);
+    text-decoration: dotted;
+
+}
+
+.link-end:hover {
+    text-decoration: underline;
+}
+
+.pied-page ul.end {
+    margin-left: 39%;
+}
